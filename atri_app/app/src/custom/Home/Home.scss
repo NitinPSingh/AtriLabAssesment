@@ -1,0 +1,214 @@
+body{
+    font-family: IBM Plex Sans
+}
+
+.ImageGrid{
+    display: grid!important;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    align-items: stretch;
+    grid-template-rows: auto auto;
+    
+}
+.NavFlex{
+    display: flex!important;
+}
+.footerColorText{
+    color: transparent;
+    background-clip: text;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+}
+.FAQColorText{
+    color: transparent!important;
+    letter-spacing: 4px;
+    background-clip: text;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+}
+
+
+
+.bioHeading{
+    display: inline;
+    padding-right: 5px;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 110%;
+    letter-spacing: -2px;
+}
+
+.bioHeading_sub{
+   font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2px;
+}
+.bioInfo{
+    color: #666!important;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.BioButtonShadow ,.ProjButtonShad{
+    position: absolute;
+    padding: 20px 30px;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    transform: translate(7px, 7px);
+}
+
+.LogoGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 16px;
+    grid-column-gap:100px ;
+}
+.Services_Heading{
+    display: inline-block;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+   letter-spacing: 4px;
+   -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ServicesList{
+    column-gap: 90px;
+}
+*img{
+    object-fit: contain!important;
+}
+
+.TextBox487,.TextBox481,.TextBox484,.ColorFulProjectText{
+   
+   
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.project_slider_window {
+    position: static;
+    width: 40%;
+    height: 100px !important;
+    background-color: powderblue;
+    display: flex;
+    height: auto;
+  }
+  
+  .Carousel {
+    width: 100vw;
+    height: 100px;
+    position: static;
+    background-color: palegoldenrod;
+  }
+  
+  .projectInfoBlock {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  
+
+  .Menu2 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+  .Menu3 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+
+  .Menu4 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+
+  .Menu5 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+  .Menu25 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+
+  .Menu24 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+
+  .Menu23 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+  .Menu22 {
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+  }
+  
+  .Menu29{
+    z-index: 100;
+    position: absolute!important;
+    display: flex!important;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .Flex320{
+    z-index: -1;
+    transform: translate(0%, -100%);
+  }
+
+.ImageGrid{
+    display: grid!important;
+    padding-top: 0px;
+    
+    align-items: stretch;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    
+    grid-template-columns: 1fr 1.5fr 1fr;
+    
+    grid-template-rows: auto auto;
+}
+
+// .FooterGrid{
+//     display: grid!important;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-row-gap: 40px;
+//     grid-column-gap: 100px;
+// }
+
+.ColorFulProjectText{
+   
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    letter-spacing: 4px;
+    background-clip: text!important;
+    color: transparent;
+}
+
+.TextBox101 , .TextBox275 ,.TextBox180 , .TextBox220{
+   
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    letter-spacing: 4px;
+    background-clip: text!important;
+    color: transparent;
+}
